@@ -1,0 +1,13 @@
+{
+  "name": "Photogram",
+  "short_name": "Photogram",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/img/icon.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#009689",
+  "theme_color": "#009689"
+}

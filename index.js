@@ -11,10 +11,10 @@ const cors           = require('cors');
 // Parse configuration
 const PORT            = process.env.PORT || 4040;
 const DATABASE_URI    = process.env.MONGO_URL || process.env.DATABASE_URI || process.env.MONGOLAB_URI || process.env.MONGODB_URI || 'mongodb://heroku_b2bqs7tf:fletekbphl10m0alc6ff3u5bod@ds153669.mlab.com:53669/heroku_b2bqs7tf';
-const SERVER_URL      = process.env.SERVER_URL || 'https://farmbserv.herokuapp.com/parse';
-const APP_ID          = process.env.APP_ID || 'fde3a43c-8f25-44e6-8aa8-3923d78338f1';
-const MASTER_KEY      = process.env.MASTER_KEY || 'f1pwD8yE9hRFQrlFXA3SUosh9lgSAATT';
-const APP_NAME        = process.env.APP_NAME || 'FarmBooth';
+const SERVER_URL      = process.env.SERVER_URL || 'https://mybubbleserver.herokuapp.com/parse';
+const APP_ID = process.env.APP_ID || 'myBubble_AppKey';
+const MASTER_KEY      = process.env.MASTER_KEY || 'myBubble_MasterKey8899';
+const APP_NAME        = process.env.APP_NAME || 'MyBubble';
 const PARSE_MOUNT     = process.env.PARSE_MOUNT || '/parse';
 const CLOUD_CODE_MAIN = process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js';
 const REDIS_URL       = process.env.REDIS_URL;

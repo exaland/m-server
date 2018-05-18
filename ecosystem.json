@@ -28,18 +28,18 @@
         "PARSE_MOUNT": "/parse",
         // (required) - The connection string for your database, i.e. mongodb://user:pass@host.com/dbname.
         // Be sure to URL encode your password if your password has special characters.
-        "DATABASE_URI": "mongodb://heroku_b2bqs7tf:fletekbphl10m0alc6ff3u5bod@ds153669.mlab.com:53669/heroku_b2bqs7tf",
+        "DATABASE_URI": "mongodb://heroku_pmdgt5xr:toqlet4lfeg0qkdf0b6hhnde4i@ds147920.mlab.com:47920/heroku_pmdgt5xr",
         // URL to your Parse Server (don't forget to specify http:// or https://).
         // This URL will be used when making requests to Parse Server from Cloud Code.
-        "SERVER_URL": "https://farmbserv.herokuapp.com/parse",
+        "SERVER_URL": "https://mybubbleserver.herokuapp.com/parse",
         // Your apps name. This will appear in the subject and body of the emails that are sent.
-        "APP_NAME": "FarmBooth",
+        "APP_NAME": "MyBubble",
         // (required) - The application id to host with this server instance.
         // You can use any arbitrary string. For migrated
-        "APP_ID": "fde3a43c-8f25-44e6-8aa8-3923d78338f1",
+        "APP_ID": "myBubble_AppKey",
         // (required) - The master key to use for overriding ACL security.
         // You can use any arbitrary string. Keep it secret! For migrated apps, this should match your hosted Parse app.
-        "MASTER_KEY": "f1pwD8yE9hRFQrlFXA3SUosh9lgSAATT",
+        "MASTER_KEY": "myBubble_MasterKey8899",
 
         // Files save in Folder
         //"UPLOAD_LOCAL_PATH": "/storage",
